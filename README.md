@@ -1,17 +1,17 @@
-# Image gallery
+# Jokes API
 
 > A simple website ...
 
 ## Table of contents
 
-- [Image gallery](#image-gallery)
-	- [Table of contents](#table-of-contents)
-	- [General info](#general-info)
-	- [Screenshots](#screenshots)
-	- [Technologies](#technologies)
-	- [Setup](#setup)
-	- [Code Examples](#code-examples)
-	- [Status](#status)
+- [Jokes API](#jokes-api)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Status](#status)
 
 ## General info
 
@@ -42,4 +42,3 @@ Clone the repo and run npm install.
 ## Status
 
 Project is: _in progress_
-# jokes-api
