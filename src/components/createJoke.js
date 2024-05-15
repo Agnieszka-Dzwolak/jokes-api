@@ -2,7 +2,7 @@ const createJoke = (jokeData) => {
     //container
     const container = document.createElement('div');
     container.id = 'joke-container';
-    container.classList.add('joke');
+    container.classList.add('joke-container');
 
     //category
     const category = document.createElement('h2');
@@ -14,7 +14,7 @@ const createJoke = (jokeData) => {
     const type = document.createElement('p');
     type.id = 'type-id';
     type.classList.add('type');
-    type.innerText = jokeData.type;
+    // type.innerText = jokeData.type;
 
     container.append(category, type);
 
@@ -24,7 +24,7 @@ const createJoke = (jokeData) => {
         const setup = document.createElement('p');
         setup.id = 'setup-id';
         setup.classList.add('setup');
-        setup.innerText = jokeData.setup;
+        setup.innerHTML = jokeData.setup;
 
         //delivery
         const delivery = document.createElement('p');
@@ -42,6 +42,11 @@ const createJoke = (jokeData) => {
 
         container.append(joke);
     }
+
+    //line
+    const line = document.createElement('div');
+    line.id = 'line-id';
+    line.classList.add('line');
 
     //flags
     const flags = document.createElement('ul');
@@ -74,7 +79,7 @@ const createJoke = (jokeData) => {
         safe.innerText = 'Warning: Explicit Content';
     }
 
-    container.append(flags, language, safe);
+    container.append(line, flags, language, safe);
 
     return container;
 };
